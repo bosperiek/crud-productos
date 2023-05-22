@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c2b6f7;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Dancing Script";
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#add-product-form {
+  margin: 20px;
+  padding: 20px;
+}
+
+.Nombre {
+  margin: 5px;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
+#product-name {
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #c2b6f7;
+  margin: 5px;
+  padding: 5px;
+}
+
+.Producto {
+  margin: 5px;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
+#product-description {
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #c2b6f7;
+  margin: 5px;
+  padding: 5px;
+}
+
+.button {
+  margin: 5px;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  color: yellow;
+  border: 1px solid;
+  background-color: black;
+  border-radius: 5px;
+}
+.button:hover {
+  color: black;
+  background-color: yellow;
+}
+
+h2 {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px none;
+  font-family: "Dancing Script";
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#product-list {
+  background-color: white;
+}
+
+th,
+td {
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  font-style: italic;
+}
+
+th {
+  font-weight: bold;
+  color: yellow;
+  background-color: black;
+}
+
+tr {
+  color: black;
+}
+
+form {
+  margin-bottom: 16px;
+}
+
+.edit-button {
+  margin: 2px;
+  padding: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  color: black;
+  border: 1px solid;
+  background-color: yellow;
+  border-radius: 5px;
+}
+.edit-button:hover {
+  color: yellow;
+  background-color: black;
+}
+
+.delete-button {
+  margin: 2px;
+  padding: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  color: black;
+  border: 1px solid;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  color: yellow;
+  background-color: black;
+}
