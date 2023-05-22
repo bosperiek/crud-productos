@@ -1,7 +1,7 @@
 // Array para almacenar los productos
 var products = [];
 
-// Función para agregar un producto
+// Función para agregar un producto.
 function addProduct(nombre, descripcion) {
   var product = {
     nombre: nombre,
